@@ -1,0 +1,5 @@
+JenkinsfileDockerSwarm                          index.yaml      service.yml
+root@ip-172-31-35-214:~/java-web-app-docker# cat Dockerfile
+FROM tomcat:8.0.20-jre8
+# Dummy text to test
+
