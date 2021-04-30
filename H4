@@ -1,0 +1,30 @@
+* main
+  web1
+  web2
+  web3
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/web2
+  remotes/origin/web3
+root@ip-172-31-35-214:~/Gitlab-2/Gitrepo_example# ls -ltr
+total 12
+-rw-r--r-- 1 root root  31 Apr 30 10:06 README.md
+-rw-r--r-- 1 root root   0 Apr 30 10:07 H3
+-rw-r--r-- 1 root root 182 Apr 30 10:42 H2
+-rw-r--r-- 1 root root  32 Apr 30 10:42 H1
+root@ip-172-31-35-214:~/Gitlab-2/Gitrepo_example# branch
+
+Command 'branch' not found, but can be installed with:
+
+apt install rheolef
+
+root@ip-172-31-35-214:~/Gitlab-2/Gitrepo_example# git branch
+* main
+  web1
+  web2
+  web3
+root@ip-172-31-35-214:~/Gitlab-2/Gitrepo_example# git branch web4
+root@ip-172-31-35-214:~/Gitlab-2/Gitrepo_example# git checkout web4
+Switched to branch 'web4'
+root@ip-172-31-35-214:~/Gitlab-2/Gitrepo_example# ls
+
